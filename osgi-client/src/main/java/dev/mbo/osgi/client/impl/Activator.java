@@ -24,6 +24,7 @@ import org.osgi.framework.ServiceEvent;
 import org.osgi.framework.ServiceListener;
 import org.osgi.framework.ServiceReference;
 
+@SuppressWarnings("unused")
 public class Activator implements BundleActivator, ServiceListener {
 
     private BundleContext context;

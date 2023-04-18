@@ -24,8 +24,10 @@ import org.osgi.framework.ServiceRegistration;
 
 import java.util.Hashtable;
 
+@SuppressWarnings("unused")
 public class Activator implements BundleActivator {
 
+    @SuppressWarnings("FieldCanBeLocal")
     private ServiceReference<Greeter> reference;
     private ServiceRegistration<Greeter> registration;
 
